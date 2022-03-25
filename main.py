@@ -20,7 +20,7 @@ tm.sleep(2)
 #Startup Function
 
 def startup():
-    link= "http://api.openweathermap.org/data/2.5/weather?appid=eeea9c98b67a22eb96b5eff1ae2e8442&q=Adana"
+    link= "Put Your API key here"
     response = requests.get(link)
     a = response.json()
     if a["cod"] != "404":
